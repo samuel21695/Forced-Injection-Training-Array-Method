@@ -1,4 +1,4 @@
-// ? Q4, 배열의 시작에 하나 이상의 요소를 추가하고, 배열의 새 길이를 반환하는 메서드는 무엇인가요?
+// ? Q4 배열의 시작에 하나 이상의 요소를 추가하고, 배열의 새 길이를 반환하는 메서드는 무엇인가요?
 
 /**
  * * 배열의 시작에 하나 이상의 요소를 추가하고, 배열의 새 길이를 반환하는 메서드는 JavaScript의 'unshift()' 메서드입니다.
@@ -8,6 +8,7 @@
 
 const myArray = [1, 2, 3]
 const newArrayLength = myArray.unshift(0)
+// myArray는 이제 [0, 1, 2, 3]이 되고 newArrayLength는 4를 반환합니다.
 // 여러 개의 인자도 가능하다.
 console.log(myArray);
 console.log(newArrayLength);

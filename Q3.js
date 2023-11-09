@@ -8,6 +8,7 @@
 
 const myArray = [1, 2, 3];
 const firstElement = myArray.shift();
+// myArray는 이제 [2, 3]이 되고, firstElement는 1을 반환합니다.
 console.log(myArray);
 console.log(firstElement);
 
