@@ -11,7 +11,7 @@ const hasEvenNumber = myArray.some( element => element % 2 === 0);
 console.log(hasEvenNumber);
 // true (짝수가 하나 이상 있음)
 
-const newEvenNumber = myArray.filter( element => element % 2);
+const newEvenNumber = myArray.filter( element => element % 2 === 0);
 console.log(newEvenNumber);
 
 const mapEvenNumber = myArray.map( element => element % 2);
