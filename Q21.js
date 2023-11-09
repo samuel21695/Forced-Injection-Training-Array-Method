@@ -9,3 +9,4 @@
 const myArray = [1, 2, 3, 4, 5];
 const sumFromRight = myArray.reduceRight((accumulator, currentValue) => accumulator + currentValue, 0);
 // sumFromRight은 15를 반환합니다. (배열의 끝에서부터 모든 요소를 더한 결과)
+console.log(sumFromRight);
