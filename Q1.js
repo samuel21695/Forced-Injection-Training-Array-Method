@@ -9,6 +9,7 @@
 
 const myArray = [1, 2, 3];
 const newLength = myArray.push(4, 5);
+console.log(myArray);
 console.log(newLength);
 // myArray는 이제 [1, 2, 3, 4, 5]가 되고, newLength는 5를 반환합니다.
 

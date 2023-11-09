@@ -7,7 +7,7 @@
  */
 
 const myArray = [1, 2, 3]
-const newArrayLength = myArray.unshift(0)
+const newArrayLength = myArray.unshift(4)
 // myArray는 이제 [0, 1, 2, 3]이 되고 newArrayLength는 4를 반환합니다.
 // 여러 개의 인자도 가능하다.
 console.log(myArray);
