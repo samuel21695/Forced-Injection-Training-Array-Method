@@ -6,7 +6,10 @@
  * * 사용 방법: map() 메서드는 배열 객체에 대해 호출되며, 각 요소에 대한 변환 함수를 인수로 받습니다.
  */
 
-const MyArray = [10, 20, 30, 40, 50];
+const myArray = [10, 20, 30, 40, 50];
 const arrayMap = MyArray.map( element => element * 2)
 // [10, 20, 30, 40, 50] (각 요소에 2를 곱한 결과)
 console.log(arrayMap);
+
+const squaredAndDoubled = myArray.map ( element => [element * element, element * 2]);
+console.log(squaredAndDoubled);
