@@ -19,3 +19,4 @@ const newfruits = fruits.push('cheery', 'melon');
 console.log(fruits);
 console.log(newfruits);
 // ["apple", "banana", "cherry", "date"]
+

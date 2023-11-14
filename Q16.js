@@ -7,7 +7,7 @@
  */
 
 const myArray = [10, 20, 30, 40, 50];
-const arrayMap = MyArray.map( element => element * 2)
+const arrayMap = myArray.map( element => element * 2)
 // [10, 20, 30, 40, 50] (각 요소에 2를 곱한 결과)
 console.log(arrayMap);
 
